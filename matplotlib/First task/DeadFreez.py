@@ -37,7 +37,9 @@ ax1.set_rticks([g, 2*g, 3*g, 4*g, 5*g])
 
 ax1.set_title("Fire in polar")
 
+#соотношения сторон
 kwargs ={'aspect' : '1' }
+
 ax2 = fig.add_subplot(121, **kwargs )
 ax2.scatter(x, y, marker='.', color='red')
 
