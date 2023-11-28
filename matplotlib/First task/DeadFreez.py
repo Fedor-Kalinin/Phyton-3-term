@@ -48,6 +48,8 @@ ax2.set_title("Fire in classic")
 ax2.set_xlabel('X')
 ax2.set_ylabel('Y')
 
+plt.figure(dpi=300)
+
 plt.savefig("005.png")
 plt.show()
 
